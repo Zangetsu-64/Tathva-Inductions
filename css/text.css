@@ -1,18 +1,18 @@
 h1
 {
-    position: absolute;
-    left: 50px;
-    top: 70px;
+    position: relative;
+    left: 30px;
+    top: 30px;
     font-size: 48px;
     font-family: "Calibri";
 
 }
 .line1
 {
-    position: absolute;
+    position: relative;
     color: #BCC6CC;
-    left: 50px;
-    top: 200px;
+    left: 35px;
+    top: 10px;
     font-family: "Calibri";
 
 }
@@ -21,4 +21,13 @@ h1
     
     font-family: "Calibri";
     font-size: 18px;
+}
+.H1
+{
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    display: flex;
+    justify-content:center;
+
 }

@@ -1,0 +1,9 @@
+a, a:active, a:focus
+{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover
+{
+    color: blue;
+}
