@@ -1,12 +1,26 @@
-.icon
-{
-    position: absolute; 
-    top: 25px; 
-    left: 50px;
-}
+
 .img1
 {
     position: relative;
-    left:35px;
-    top: 50px;
+    left:0%;
+    top: -80%;
+    border: 1px solid blue;
+
+}
+body
+{
+    margin: 20px;
+    height: 100;
+    max-width: 80%
+}
+html
+{
+    height: 100;
+    max-width: 80%
+}
+.nav1
+{
+    position: relative;
+    top:20px;
+
 }
