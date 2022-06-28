@@ -50,3 +50,19 @@ a{
         flex-basis:100%;
     }
 }
+@media(min-width: 40rem)
+{
+    body{
+        max-width:100%;
+    }
+
+}
+
+body{
+    padding: 2rem;
+    max-width: 80%;
+    margin:auto;
+    border-style: solid;
+    border-color: black;
+    border-left: 85%;
+}
