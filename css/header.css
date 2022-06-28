@@ -10,7 +10,7 @@ body{
 .l-header{
     display: flex;
     flex-basis:100%;
-    margin-top:0.40rem;
+    margin-top:0.43rem;
     
 }
 
@@ -55,10 +55,16 @@ a{
         flex-basis:100%;
     }
 }
-@media(min-width: 40rem)
+@media(max-width:1000rem )
 {
     body{
         max-width:100%;
+    }
+    .ctn1-left{
+        max-width:90%;
+        font-size:1rem;
+        margin-top: 2.5rem;
+      
     }
 
 }
