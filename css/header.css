@@ -44,7 +44,7 @@ body{
     cursor: pointer;
 }
 a{
-    text-decoration: none;
+    text-decoration:solid;
     color: inherit;
 }
 
@@ -62,7 +62,7 @@ a{
     }
     .ctn1-left{
         max-width:90%;
-        font-size:1rem;
+        font-size:0.5rem;
         margin-top: 2.5rem;
       
     }
@@ -76,4 +76,5 @@ body{
     border-style: solid;
     border-color: black;
     border-left: 85%;
+
 }
