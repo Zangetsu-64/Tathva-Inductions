@@ -19,10 +19,47 @@
     width:1.7rem;
     margin-top:5.2rem;     
 }
+.split-1{
+    padding:1rem;
+}
 
-.split-2{
-    margin-left: 4rem;
+.split-21, .split-22{
+    position: relative;
+    left: 1.5rem;
+    padding:2rem;
     display:flex;
     font-size:2rem;
     font-family:sans-serif;
+    max-width:90%;
+}
+.s221, .s211, .s212, .s222{
+    padding: 1rem;
+
+}
+.s212{
+    position: relative;
+    left:10rem;
+}
+.s222{
+    position: relative;
+    left: 13.4rem;
+}
+
+@media(max-width:70rem){
+    .split-21, .split-22{
+        flex-direction: column;
+    }
+    .s222{
+        position: relative;
+        left:0rem;
+    }
+    .s212{
+        position: relative;
+        left:0rem;
+    }
+    .split-21,.split-22{
+        width: 70%;
+        height: 40%;
+    }
+    
 }
